@@ -933,7 +933,7 @@ END Pricing Area
 .team-thumb img{
     /*max-width: 160px;*/
 	max-height: 160px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .single-team h4{
         font-size: 20px;
