@@ -65,10 +65,10 @@
         font-size: 14px;
     }
     .about-area {
-        padding: 90px 0px 70px;
+        padding: 15px 0px 70px;
     }
     .feature-area {
-        padding: 90px 0px 40px;
+        padding: 15px 0px 40px;
     }
     .ft-content{
         margin-top: 0;
@@ -81,7 +81,7 @@
     .pricing-area,
     .clinet-area,
     .contact-area {
-        padding: 90px 0px;
+        padding: 15px 0px;
     }
     .screen-area img.screen-img {
         bottom: 137px;
