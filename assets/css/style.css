@@ -293,17 +293,18 @@ END Header Area
     color: #fff;
     letter-spacing: 0;
 	align-content: center;
-	line-height: 225px;
+	line-height: 83px;
+	margin-top: 30px;
 }
 
 .slider-inner h5 {
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 0;
-    line-height: 39px;
-    margin-bottom: 50px;
-    margin-top: -75px;
+    line-height: 41px;
+    margin-bottom: 48px;
+    margin-top: 1px;
 }
 
 .slider-inner a {
