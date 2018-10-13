@@ -77,7 +77,7 @@
         font-size: 22px;
     }
     .screen-area,
-    .testimonial-area,
+    .history-area,
     .pricing-area,
     .clinet-area,
     .contact-area {
@@ -95,10 +95,10 @@
         font-size: 21px;
         margin-bottom: 7px;
     }
-    .team-area {
+    .sponsors-area {
         padding: 0px 0px 70px;
     }
-    .single-team{
+    .single-sponsors{
         margin-bottom: 20px;
     }
     .download-btns a{
@@ -217,7 +217,7 @@
         padding: 80px 0px 10px;
     }
     .screen-area,
-    .testimonial-area,
+    .history-area,
     .video-area,
     .call-to-action,
     .clinet-area,
@@ -234,11 +234,11 @@
         font-size: 25px;
     }
     .pricing-area,
-    .team-area{
+    .sponsors-area{
         padding: 80px 0px 60px;
     }
     .single-price,
-    .single-team{
+    .single-sponsors{
         margin-bottom: 30px;
     }
     .download-btns a{
@@ -407,7 +407,7 @@
         padding: 70px 0px 0px;
     }
     .screen-area,
-    .testimonial-area,
+    .history-area,
     .video-area,
     .call-to-action,
     .clinet-area,
@@ -424,11 +424,11 @@
         font-size: 25px;
     }
     .pricing-area,
-    .team-area{
+    .sponsors-area{
         padding: 70px 0px 40px;
     }
     .single-price,
-    .single-team{
+    .single-sponsors{
         margin-bottom: 30px;
     }
     .download-btns a{

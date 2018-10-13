@@ -21,10 +21,10 @@
         2.5 Feature Area
         2.6 Achivement Area
         2.7 Screen Area
-        2.8 Testimonial Area
+        2.8 history Area
         2.9 Video Area
        2.10 Pricing Area
-       2.11 Team Area
+       2.11 sponsors Area
        2.12 Call To Action
        2.13 Blog Post
        2.14 Clinet Area
@@ -661,12 +661,12 @@ END Screen Area
 
 
 /*===========================
-2.8 Testimonial Area
+2.8 history Area
 ===========================*/
 
-.testimonial-area {}
+.history-area {}
 
-.testimonial-slider {}
+.history-slider {}
 
 .single-tst {
         text-align: center;
@@ -720,12 +720,12 @@ END Screen Area
 	color: #5a0efb;
 }
 
-.testimonial-slider .owl-dots {
+.history-slider .owl-dots {
     text-align: center;
     margin-top: 50px;
 }
 
-.testimonial-slider .owl-dots .owl-dot {
+.history-slider .owl-dots .owl-dot {
     height: 15px;
     width: 15px;
     border: 1px solid #AA0000;
@@ -737,13 +737,13 @@ END Screen Area
     transition: all 0.3s ease 0s;
 }
 
-.testimonial-slider .owl-dots .active {
+.history-slider .owl-dots .active {
     background-color: #AA0000;
 }
 
 
 /*===========================
-END Testimonial Area
+END history Area
 ===========================*/
 
 /*===========================
@@ -913,10 +913,10 @@ END Pricing Area
 ===========================*/
 
 /*===========================
-2.11 Team Area
+2.11 sponsors Area
 ===========================*/
-.team-area{}
-.single-team{
+.sponsors-area{}
+.single-sponsors{
     text-align: center;
     overflow: hidden;
     border-radius: 3px;
@@ -927,18 +927,18 @@ END Pricing Area
     transition: all 0.3s ease 0s;
 	margin-bottom: 20px
 }
-.single-team:hover{
+.single-sponsors:hover{
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
-.team-thumb{
+.sponsors-thumb{
     margin: 40px 0px;
 }
-.team-thumb img{
+.sponsors-thumb img{
     /*max-width: 160px;*/
 	max-height: 160px;
 /*    border-radius: 10%;*/
 }
-.single-team h4{
+.single-sponsors h4{
         font-size: 30px;
     font-weight: 500;
     color: #AA0000;
@@ -946,19 +946,19 @@ END Pricing Area
 	font-style: italic;
 /*    margin-bottom: 8px;*/
 }
-.single-team span{
+.single-sponsors span{
     display: block;
     color: #666;
     font-weight: 400;
     letter-spacing: 0;
 }
-.single-team ul{
+.single-sponsors ul{
     margin-top: 40px;
 }
 
 
 /*===========================
-2.11 Team Area
+2.11 sponsors Area
 ===========================*/
 
 /*===========================

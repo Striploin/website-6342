@@ -172,10 +172,10 @@
     client_carousel();
 
     /*---------------------
-    testimonial slider
+    history slider
     --------------------- */
-    function testimonial_slider() {
-        var owl = $(".testimonial-slider");
+    function history_slider() {
+        var owl = $(".history-slider");
         owl.owlCarousel({
             loop: true,
             margin: 20,
@@ -205,7 +205,7 @@
             }
         });
     }
-    testimonial_slider();
+    history_slider();
 
     /*------------------------------
     MagnificPopup Activation
