@@ -350,7 +350,8 @@
     content:"\f040"
 }
 .fa-map-marker:before{
-    content:"\f041"
+    content:"\f041";
+	color: #AA0000;
 }
 .fa-adjust:before{
     content:"\f042"
@@ -1454,7 +1455,8 @@
     content:"\f1d7"
 }
 .fa-send:before,.fa-paper-plane:before{
-    content:"\f1d8"
+    content:"\f1d8";
+	color: #AA0000;
 }
 .fa-send-o:before,.fa-paper-plane-o:before{
     content:"\f1d9"
