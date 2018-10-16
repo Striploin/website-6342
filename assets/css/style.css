@@ -471,3 +471,7 @@ END Header Area
 	color: #AA0000;
 }
 
+.lazy{
+ max-width: 100%; 
+ height: auto; 
+}

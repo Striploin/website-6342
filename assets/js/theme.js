@@ -241,6 +241,10 @@
 
         bgParallax();
     });
-
-
+	
+    $(function() {
+        $('.lazy').Lazy();
+    });
+            
+	
 }(jQuery));
