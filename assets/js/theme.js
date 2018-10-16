@@ -206,49 +206,7 @@
         });
     }
     history_slider();
-
-    /*------------------------------
-    MagnificPopup Activation
-    -------------------------------- */
-    /* magnificPopup video view */
-    $('.expand-video').magnificPopup({
-        type: 'iframe'
-    });
-
-    /*------------------------------
-    YTP activation
-    -------------------------------- */
-    $(window).on('load', function() {
-        var myPlayer = $("#bgndVideo").YTPlayer();
-    });
-
-    /*-----------------------------
-    Warm Canvas activation
-    ------------------------------- */
-    if ($('.warm-canvas').length) {
-        $('.warm-canvas').glassyWorms({
-            colors: ['#fff', '#c2c2c2'],
-            useStyles: true,
-            numParticles: 500,
-            tailLength: 20,
-            maxForce: 8,
-            friction: 0.75,
-            gravity: 9.81,
-            interval: 3
-            // colors: ['#000'],
-            // element: $('<canvas class="worms"></canvas>')[0]
-        });
-    }
-
-    /*------------------------------
-         counter
-    ------------------------------ */
-    
-    $('.counter').counterUp({
-        delay: 20,
-        time: 2000
-    });
-
+ 
     /*-----------------------------
     Background Paralax activation
     ------------------------------- */

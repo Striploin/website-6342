@@ -110,6 +110,59 @@ input, textarea {
 .mobile_menu {
 }
 
+.slicknav_menu .slicknav_menutxt {	
+	display: none;	
+}	
+.slicknav_menu {	
+	background: transparent;	
+	margin-top: 21px;	
+}	
+.slicknav_menu .slicknav_icon-bar {	
+	height: 2px;	
+	width: 19px;	
+	margin: 3px 0px;	
+	-webkit-transition: all 0.3s ease 0s;	
+	transition: all 0.3s ease 0s;	
+}	
+.slicknav_btn {	
+	background-color: transparent;	
+	position: relative;	
+	margin-top: -51px;	
+}	
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(2) {	
+	opacity: 0;	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";	
+}	
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(1) {	
+	-webkit-transform: rotate(45deg) translate(1px, 7px);	
+	transform: rotate(45deg) translate(1px, 7px);	
+}	
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(3) {	
+	-webkit-transform: rotate(-45deg) translateY(-6px);	
+	transform: rotate(-45deg) translateY(-6px);	
+}	
+.slicknav_menu {	
+	margin-top: 0;	
+}	
+.slicknav_nav {	
+	background: #AA0000;	
+	margin: 10px;	
+	padding: 6px 0px;	
+}	
+.slicknav_nav a:hover {	
+	background: #fefefe none repeat scroll 0 0;	
+	border-radius: 0;	
+}	
+.slicknav_nav a {	
+	font-size: 14px;	
+	letter-spacing: 0.01em;	
+}	
+/*==========================	
+END Header Area	
+===========================*/	
+ /*==========================	
+2.2 Slider Area	
+===========================*/
 .slider-area {
 	display: flex;
 	align-items: center;
@@ -152,7 +205,7 @@ input, textarea {
 	text-align: center;
 	margin-bottom: 50px;
 }
-.section-title h2 {
+.section-title h1 {
 	font-size: 30px;
 	font-weight: 500;
 	color: #232323;
@@ -162,7 +215,7 @@ input, textarea {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
-.section-title h2:before {
+.section-title h1:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -172,7 +225,7 @@ input, textarea {
 	background-color: #AA0000;
 	left: calc(50% - 100px);
 }
-.section-title h2:after {
+.section-title h1:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -417,3 +470,4 @@ input, textarea {
 .footer-area p {
 	color: #AA0000;
 }
+
