@@ -4,9 +4,8 @@
    <meta charset="UTF-8">
    <link rel="shortcut icon" href="../assets/img/icon/favicon.ico">
    <title>Directory Contents</title>
-
-   <link rel="stylesheet" href="./.style.css">
-   <script src="./.sorttable.js"></script>
+   <link rel="stylesheet" href="/resources/.assets/css/resources.css">
+   <script src="/resources/.assets/js/.sorttable.js"></script>
 </head>
 
 <body>
@@ -28,7 +27,7 @@
 	function pretty_filesize($file) {
 		$size=filesize($file);
 		if($size<1024){$size=$size." Bytes";}
-		elseif(($size<1048576)&&($size>1023)){$size=round($size/1024, 1)." KB";}
+		elseif(($size<1048576)&&($size>1023)){$size=round($si6ze/1024, 1)." KB";}
 		elseif(($size<1073741824)&&($size>1048575)){$size=round($size/1048576, 1)." MB";}
 		else{$size=round($size/1073741824, 1)." GB";}
 		return $size;
